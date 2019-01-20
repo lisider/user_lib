@@ -1,0 +1,5 @@
+该工程是一个音频框架demo
+
+
+编译alsa 文件时,需要安装开发库
+sudo apt-get install libasound2-dev
