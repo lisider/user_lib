@@ -1,0 +1,19 @@
+功能:
+	实现了一个基于openssl 的收发,建立在 tcp 链接上
+
+编译前提:
+	1/安装openssl
+		sudo apt-get install openssl
+
+
+运行前提:
+	创建用户证书及用户私钥
+	参考
+	http://blog.csdn.net/liuchunming033/article/details/48470575
+	http://blog.sina.com.cn/s/blog_6151984a0100f0q4.html
+
+怎么运行
+     make
+     ./runServer 
+          提示输入,输入 123456
+     ./runClient
